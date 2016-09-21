@@ -1,6 +1,7 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
  font-family: 'Fanwood Text', serif;
+   font-family: "Angsana New";
 */
 
 #contenidos{
@@ -21,7 +22,7 @@ background-size: cover;
 }
 
 h1{
-font-family: 'Fanwood Text', cursive;
+font-family: 'Angsana New', cursive;
 color: white;
 margin-left: 10px;
 font-size: 30px;
