@@ -55,7 +55,7 @@ header{
 nav{
 width: 1000px;
 height: 50px;
-background: #617e07;
+background: #F4AF00;
 border-radius: 10px;
 
 }
@@ -68,7 +68,7 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: ;
+	background: #333;
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px black inset; 
