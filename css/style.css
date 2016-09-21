@@ -17,14 +17,13 @@ body{
 background-image: url(../img/fondo3.png);
 background-repeat: no-repeat;
 background-size: cover;
-border-radius: 10px;
 }
 
 h1{
 font-family: '', cursive;
 color: white;
 margin-left: 10px;
-font-size: 50px;
+font-size: 30px;
 text-align: center; 
 }
 
