@@ -108,7 +108,7 @@ width: 1005px;
 height: 70px;
 background: black;
 float: left;
-margin-top: 20px;
+margin-top: 10px;
 border-radius: 10px;
 margin-bottom: 20px;
 border-style:solid;
@@ -141,7 +141,17 @@ p{
 
 
 
+.footer-izquierda{
+	float: right;
+}
 
+.footer-centro{
+
+}
+
+.footer-derecha{
+	float: left;
+}
 
 
 
