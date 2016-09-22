@@ -108,6 +108,7 @@ footer{
 	height: auto;
 	background: black;
 	margin-top: 10px;
+	float: left;
 }
 
 p{
