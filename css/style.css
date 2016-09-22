@@ -16,11 +16,7 @@
 
 
 /*ETIQUETAS*/
-body{
-background-image: url(../img/fondo3.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
+body{background-image: url(../img/fondo3.png);background-repeat: no-repeat;background-size: cover;}
 
 h1{
 font-family: 'Angsana New';
@@ -69,7 +65,7 @@ margin: auto;
 padding-top: 4px;
 }
 
-li{
+nav li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
@@ -80,15 +76,35 @@ li{
 
 }
 
+aside .links li{
+	list-style-type: none;
+	padding: 10px;
+	background: #009ED4;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black inset;
+	width: 174px;
+}
+
+aside .redes li{
+	
+}
+
+aside li a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+
 section{
 	width: 700px;
-	background: gray;
+	background: #fff;
 	height: 600px;
 	float: left;
 	margin-top: 3px;
 	border-radius: 10px;
 	border-style:solid;
-    border-color: #F4AF00;
+	border-color: #F4AF00;
 }
 aside{
 
@@ -129,7 +145,7 @@ p{
 .ancho_menu_paginas{width: 970px;}
 
 .menu:link{color: white; text-decoration: none;}
-.menu:visited{color: white; text-decoration: none;}
+.menu:visited{color: white;text-decoration: none;}
 .menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
 .menu:active{color: white; text-decoration: none;}
 
@@ -174,20 +190,21 @@ footer .footer-izquierda img{
 }
 
 .footer-inferior{
-	height: 200px;
+	height: 128px;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
 }
 
 .footer-inferior img{
 	float: left;
+	padding: 0 20px;
 }
 
 .imgcalidad{
 	margin: 0 auto;
-	width: 500px;
+	width: 50%;
 }
 
-
-
-
-
-
+figcaption span a{
+	color: #000 !important;
+}
