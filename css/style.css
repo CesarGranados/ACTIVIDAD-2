@@ -140,19 +140,16 @@ p{
 .footer-izquierda{
 	float: left;
 	width: 33%;
-    padding: 5px;
 }
 
 .footer-centro{
 	float: inherit;
 	width: 33%;
-    padding: 5px;
 }
 
 .footer-derecha{
 	float: right;
 	width: 33%;
-    padding: 5px; 
 }
 
 footer p{
