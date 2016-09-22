@@ -169,6 +169,13 @@ footer .footer-izquierda img{
 	padding: 60px;
 }
 
+.footer-superior{
+	height: 164px;
+}
+
+.footer-inferior img{
+	float: left;
+}
 
 
 
