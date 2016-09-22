@@ -170,17 +170,21 @@ footer .footer-izquierda img{
 }
 
 .footer-superior{
-	height: 164px;
+	height: 180px;
 }
 
 .footer-inferior{
-	
+	height: 200px;
 }
 
 .footer-inferior img{
 	float: left;
 }
 
+.imgcalidad{
+	margin: 0 auto;
+	width: 500px;
+}
 
 
 
