@@ -143,12 +143,12 @@ p{
 }
 
 .footer-centro{
-	float: inherit;
+	float: left;
 	width: 33%;
 }
 
 .footer-derecha{
-	float: right;
+	float: left;
 	width: 33%;
 }
 
