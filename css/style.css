@@ -60,6 +60,8 @@ width: 1000px;
 height: 50px;
 background: #F4AF00;
 border-radius: 10px;
+border-style:solid;
+border-color: white;
 
 }
 ul{
