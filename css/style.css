@@ -28,7 +28,7 @@ h1{
 
 h2{
 	font-family: 'Fanwood Text', serif;
-	color: white;
+	color: #F4AF00;
 	margin-left: 10px;
 	font-size: 30px;
 	text-align: center; 
@@ -43,9 +43,8 @@ h3{
 
 header{
 	width: 90%;
-	height: 120 px;
-	background: #004669;
-	border-style: groove;
+	height: 118px;
+	background: #fff;
 	margin: auto;
 }
 
@@ -53,7 +52,6 @@ nav{
 	width: 90%;
 	height: 50px;
 	background: #0081ad;
-	border-style: outset;
 	margin: auto;
 
 }
@@ -65,22 +63,24 @@ ul{
 nav li{
 	float: left;
 	list-style-type: none;
-	padding: 10px;
-	background: #009ED4;
-	margin: 3px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px black inset; 
-
+	margin: 7px 0 0 0;
+	padding: 5px 31px;
 }
 
 aside .links li{
 	list-style-type: none;
-	padding: 10px;
-	background: #009ED4;
-	margin: 3px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px black inset;
-	width: 174px;
+	padding: 10px 16px 10px 0px;
+	text-align: right;
+	border-top: solid 1px #004669;
+	width: 94%;
+}
+
+aside .links li:hover{
+	background: #004669; 
+}
+
+.aside-ultimo{
+	border-bottom: solid 1px #004669;
 }
 
 aside .redes li{
@@ -94,28 +94,20 @@ aside li a{
 }
 
 section{
-	width: 69%;
+	width: 72%;
 	background: #fff;
 	height: 600px;
 	float: left;
-	margin-top: 4px;
-	margin-left: 53px;
-	border-style: double;
-
-	
 }
 aside{
-
-	width: 21%;
-	background: #1e8b8a;
+	width: 18%;
+	background: #F4AF00;
 	height: 600px;
 	float: left;
-	margin-left: 5px;
-	margin-top: 5px;
-	border-style: ridge;
+	margin-left: 0;
+	margin-top: 0;
 	margin-right: auto;
-   
-
+	margin: 0 0 0 60px !important;
 }
 
 footer{
@@ -140,13 +132,20 @@ p{
 
 /*CLASES*/
 
+.menu{
+	width: 60%;
+}
+
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
 
 .menu:link{color: white; text-decoration: none;}
 .menu:visited{color: white;text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:hover{color: white; text-decoration: none;}
 .menu:active{color: white; text-decoration: none;}
+nav li:hover{
+	background: #e26c0e;
+}
 
 /*SEUDO CLASES*/
 
@@ -206,4 +205,34 @@ footer .footer-izquierda img{
 
 figcaption span a{
 	color: #000 !important;
+}
+
+header figure{
+	float: left;
+	width: 34%;
+}
+
+header figure img{
+	width: 90%;
+}
+
+.titulo{
+	float: right;
+	width: 58%;
+	margin-top: 26px;
+}
+
+.titulo h2{
+	font-size: 20px;
+	color: #F4AF00;
+}
+
+.links{
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
+article p{
+	padding: 2px 25px;
+
 }
