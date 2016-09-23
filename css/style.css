@@ -85,6 +85,7 @@ aside .links li:hover{
 
 aside .redes li{
 
+list-style-type: none;
 }
 
 aside li a{
@@ -235,4 +236,13 @@ header figure img{
 article p{
 	padding: 2px 25px;
 
+}
+
+.redes{
+	margin-top: 10px;
+	padding-left: 45%;
+}
+
+.redes img{
+	padding: 15px 0 0 0;
 }
